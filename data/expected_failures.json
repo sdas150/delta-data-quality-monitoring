@@ -1,0 +1,30 @@
+{
+  "orders_day1.csv": {
+    "rows": 1010,
+    "rule_failures": {
+      "required_customer_id": 12,
+      "amount_range": 13,
+      "valid_status": 7,
+      "valid_email": 6,
+      "no_future_date": 4,
+      "quantity_reasonable": 9,
+      "unique_order_id": 10,
+      "required_order_id": 0
+    },
+    "error_rows": 52
+  },
+  "orders_day2.csv": {
+    "rows": 300,
+    "rule_failures": {
+      "valid_email": 3,
+      "required_customer_id": 0,
+      "amount_range": 0,
+      "valid_status": 0,
+      "no_future_date": 0,
+      "quantity_reasonable": 0,
+      "unique_order_id": 0,
+      "required_order_id": 0
+    },
+    "error_rows": 3
+  }
+}
